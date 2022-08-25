@@ -1,79 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Indroduction</title>
+    <title>CS:GO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <script type="javascript" src="JS/javascript.js"></script>  
 </head>
 <body>
-    <div class="container">
-        <section>
-            <label for="menu">
-                <header>
-                    <div class="header">
-                        <h1>CS:GO</h1>
-                    </div>
-                    <input type="checkbox" id="menu" class="invisible"/>
-                    <div class="nav">
-                        <nav class="subnav1">
-                            <h2>Content</h2>
-                            <p>|</p>
-                            <p><a class="sections" href="#sectionA">What Is CS:GO</a></p>
-                            <p>|</p>
-                            <p><a class="sections" href="#sectionB">Gamemodes</a></p>
-                            <p>|</p>
-                        </nav>
-                        <nav class="subnav2">
-                            <h2>Pages</h2>
-                            <p>|</p>
-                            <p><a href="Tips and tricks.html">Tips and Tricks</a></p>
-                            <p>|</p>
-                            <p><a href="Teamwork.html">Teamwork</a></p>
-                            <p>|</p>
-                        </nav>
-                    </div>  
-                </header>
-            </label>
-            <main class="scroll">
-                <div class="main" id="sectionA">
-                    <h2>What is CS:GO</h2>
-                    <hr>
-                    <div class="contentcontainer">
-                        <p><img src="images/csgo.jpg" alt="csgo"></p>
-                    </div>
-                    <p>Counter-Strike: Global Offensive (CS:GO) is a multiplayer first person shooter released in 2012. It has since gained a huge player base, with players all over the globe.
-                    </p>
-                    <p>CS:GO is the 4th game in Valve's Counter-Strike series, and follows the design of its predecessors. Despite its age, it is still being updated regularly, with more players than ever in 2022. 
-                        CS:GO used to be a paid game. However, this was done away in 2018, allowing even more players to enjoy the game, leading to a larger player base. 
-                    </p>
-                    <p>CS:GO also has its fair share of hackers, especially in a map named Dust II. This lead to CS:GO having a ranked and unranked system, where only players who pay for the game's Prime status were allowed
-                        to play ranked. This mostly separated the hackers from people who paid, but not fully. Players will still find the occasional hacker but this is to be expected from a multiplayer shooter.
-                    </p>
-                    <hr>
-                </div>
-                <div class="main" id="sectionB">
-                    <h2>Gamemodes</h2>
-                    <hr>
-                    <div class="contentcontainer">
-                        <div class="content">
-                            <p><img src="images/Mirage.jpg" alt="Mirage"></p>
-                            <p>CS:GO has multiple modes that use similar maps. These include Defusal, Deathmatch, Wingman and Hostage. Defusal pits players in a 5 vs 5 situation, with one team defending sites from
-                                bombs, while the other has to plant the bombs. Wingman is similar except that it is a 2 vs 2. Deathmatch has a team and solo mode, where both objectives are to kill as many opposing 
-                                players first. Hostage is similar to Defusal, but instead of bombs, one team has to resque a hostage, while the other guards the hostage. 
-                            </p>
-                        </div>
-                        <div class="content">
-                            <p><img src="images/dangerzone.png" alt="Battle Royale"></p>
-                            <p>During the highs of Battle Royales, Valve decided to make their own in CS:GO. This lead to a new map as well as items. It was named Danger Zone, where to objective is to be the last man standing
-                                Players started in a Helicopter and parachute their way to land. They will then have to find loot (Guns, money, etc) and try to survive. Players can respawn and try again even if they died,
-                                thus giving them a second chance. This mode was lackluster compared to other popular Battle Royales like Apex Legends. This resulted in few players playing this mode.
-                            </p>
-                        </div>
-                    </div>
-                    <hr>
-                </div>
-            </main>
-        </section>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">CS:GO</a>
+        <a href="Tips and tricks.html">Tips and Tricks</a>
+        <a href="Teamwork.html">Teamwork</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="images/menu.png" alt="menu">
+        </a>
     </div>
+<div class="container">
+    <section>
+        <main class="scroll">
+            <div class="main" id="sectionA">
+                <h2>What is CS:GO</h2>
+                <hr>
+                <div class="contentcontainer">
+                    <p><img src="images/csgo.jpg" alt="csgo"></p>
+                </div>
+                <p>Counter-Strike: Global Offensive (CS:GO) is a multiplayer first person shooter released in 2012. It has since gained a huge player base, with players all over the globe.
+                </p>
+                <p>CS:GO is the 4th game in Valve's Counter-Strike series, and follows the design of its predecessors. Despite its age, it is still being updated regularly, with more players than ever in 2022. 
+                    CS:GO used to be a paid game. However, this was done away in 2018, allowing even more players to enjoy the game, leading to a larger player base. 
+                </p>
+                <p>CS:GO also has its fair share of hackers, especially in a map named Dust II. This lead to CS:GO having a ranked and unranked system, where only players who pay for the game's Prime status were allowed
+                    to play ranked. This mostly separated the hackers from people who paid, but not fully. Players will still find the occasional hacker but this is to be expected from a multiplayer shooter.
+                </p>
+                <hr>
+            </div>
+            <div class="main" id="sectionB">
+                <h2>Gamemodes</h2>
+                <hr>
+                <div class="contentcontainer">
+                    <div class="content">
+                        <p><img src="images/Mirage.jpg" alt="Mirage"></p>
+                        <p>CS:GO has multiple modes that use similar maps. These include Defusal, Deathmatch, Wingman and Hostage. Defusal pits players in a 5 vs 5 situation, with one team defending sites from
+                            bombs, while the other has to plant the bombs. Wingman is similar except that it is a 2 vs 2. Deathmatch has a team and solo mode, where both objectives are to kill as many opposing 
+                            players first. Hostage is similar to Defusal, but instead of bombs, one team has to resque a hostage, while the other guards the hostage. 
+                        </p>
+                    </div>
+                    <div class="content">
+                        <p><img src="images/dangerzone.png" alt="Battle Royale"></p>
+                        <p>During the highs of Battle Royales, Valve decided to make their own in CS:GO. This lead to a new map as well as items. It was named Danger Zone, where to objective is to be the last man standing
+                            Players started in a Helicopter and parachute their way to land. They will then have to find loot (Guns, money, etc) and try to survive. Players can respawn and try again even if they died,
+                            thus giving them a second chance. This mode was lackluster compared to other popular Battle Royales like Apex Legends. This resulted in few players playing this mode.
+                        </p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </main>
+    </section>
+</div>
+<script src="JS/javascript.js"></script>  
+
 </body>
 </html>
